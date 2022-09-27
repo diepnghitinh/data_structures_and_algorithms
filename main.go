@@ -45,10 +45,6 @@ func DFS(grid [][]int, visited [][]bool, i int, j int) {
 	for !(stack.count == 0) {
 		popVal := stack.Pop()
 
-		if grid[popVal.x][popVal.y] == 0 {
-			continue
-		}
-
 		visited[popVal.x][popVal.y] = true
 
 		for _, direction := range getDirections() {
