@@ -2,6 +2,20 @@ package main
 
 import "fmt"
 
+/*
+Công ty Anfin
+Đề bài cho biết tìm số đảo trong 1 mảng 2 chiều
+
+{1, 1, 0, 0, 0},
+{0, 1, 0, 0, 1},
+{1, 0, 0, 1, 1},
+{0, 0, 0, 0, 0},
+{1, 0, 1, 0, 1},
+
+có 5 đảo, dc tính theo 8 hướng
+
+*/
+
 const row, column = 5, 5
 
 func getDirections() [][]int {
