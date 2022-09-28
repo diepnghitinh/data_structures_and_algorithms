@@ -6,8 +6,6 @@ import "fmt"
 
 Factory Method là mẫu thiết kế qua kế thừa dựa vào một lớp con để xử lý việc khởi tạo đối tượng mong muốn.
 
-Output:
-
 */
 
 type IGun interface {
