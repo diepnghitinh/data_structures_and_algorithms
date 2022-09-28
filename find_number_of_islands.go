@@ -69,7 +69,7 @@ func DFS(grid [][]int, visited [][]bool, i int, j int) {
 	}
 }
 
-func main() {
+func find_number_of_island() {
 
 	// Init variable island
 	var a = [][]int{
